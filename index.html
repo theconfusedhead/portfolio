@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Component Library</title>
   </head>
   <body>
@@ -18,45 +19,90 @@
     <hr />
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <div>this will go from one side to another</div>
+    <div class="container">this will go from one side to another</div>
     <h3>center container</h3>
-    <div>this will be centered</div>
+    <div class="container container-center">
+      this will be centered. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Praesentium in obcaecati quae quaerat ex, debitis eveniet esse
+      nesciunt neque est dolorem totam modi sint cupiditate culpa exercitationem
+      minima eius voluptatum!
+    </div>
     <hr />
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a href="/" class="link primary-link">Primary Link</a>
+    <a href="/" class="link secondary-link">Secondary Link</a>
     <hr />
     <h2>Lists</h2>
     <div>unordered list</div>
-    <ul>
+    <p>This list will not have bullet</p>
+    <ul class="non-bullet-list">
       <li>item1</li>
       <li>item2</li>
       <li>item3</li>
     </ul>
+    <div>unordered list</div>
+    <ul class="non-bullet-list">
+      <li class="list-item-inline">item1</li>
+      <li class="list-item-inline">item2</li>
+      <li class="list-item-inline">item3</li>
+    </ul>
     <div>ordered list</div>
-    <ol>
+    <ol reversed>
       <li>item1</li>
       <li>item2</li>
       <li>item3</li>
     </ol>
     <hr />
     <h2>@nav</h2>
-    <nav>
-      <div>iAmBrand</div>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Projects</a></li>
-        <li><a href="/">Blogs</a></li>
+    <nav class="navigation container">
+      <div class="nav-brand">iAmBrand</div>
+      <ul class="non-bullet-list nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline"><a class="link" href="/">Projects</a></li>
+        <li class="list-item-inline"><a class="link" href="/">Blogs</a></li>
       </ul>
     </nav>
     <hr />
-    <header>
+    <h2>@header</h2>
+    <header class="hero">
       <p>hex color : #FF63F0</p>
       <p>Resouce:</p>
       <a href="https://undraw.co/search">UnDraw</a>
       <a href="https://tailwindcss.com/docs/customizing-colors">TailWindCSS</a>
-      <img src="/img/undraw_version_control_re_mg66.svg" alt="" />
-      <h1>heading inside hero</h1>
+      <img
+        class="hero-img"
+        src="/img/undraw_version_control_re_mg66.svg"
+        alt=""
+      />
+      <h1 class="hero-heading">heading inside hero</h1>
     </header>
+    <hr />
+    <h2>@Section</h2>
+    <section class="section">
+      <div class="container container-center">
+        <h1>White Section</h1>
+        <p>this will have white background</p>
+      </div>
+    </section>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Grey Section</h1>
+        <p>This will have grey section</p>
+      </div>
+    </section>
+
+    <hr />
+    <h2>@Footer</h2>
+    <footer class="footer">
+      <div class="footer-header">This is some text</div>
+      <ul class="social-link non-bullet-list list-item-inline">
+        <li class="list-item-inline"><a href="" class="link">Social 1</a></li>
+        <li class="list-item-inline"><a href="" class="link">Social 2</a></li>
+        <li class="list-item-inline"><a href="" class="link">Social 3</a></li>
+        <li class="list-item-inline"><a href="" class="link">Social 4</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
