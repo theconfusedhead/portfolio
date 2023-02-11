@@ -4,104 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Component Library</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
   </head>
   <body>
-    <h1>Shivam Chourasia Library</h1>
-    <p>Hi. this my web page for my projects. thank you for coming here.</p>
-    <hr />
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <small>this tag is used for small text</small>
-    <p>this is normal p tag, used for free flowing writing</p>
-    <hr />
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="container">this will go from one side to another</div>
-    <h3>center container</h3>
-    <div class="container container-center">
-      this will be centered. Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Praesentium in obcaecati quae quaerat ex, debitis eveniet esse
-      nesciunt neque est dolorem totam modi sint cupiditate culpa exercitationem
-      minima eius voluptatum!
-    </div>
-    <hr />
-    <h2>@links</h2>
-    <a href="/" class="link primary-link">Primary Link</a>
-    <a href="/" class="link secondary-link">Secondary Link</a>
-    <hr />
-    <h2>Lists</h2>
-    <div>unordered list</div>
-    <p>This list will not have bullet</p>
-    <ul class="non-bullet-list">
-      <li>item1</li>
-      <li>item2</li>
-      <li>item3</li>
-    </ul>
-    <div>unordered list</div>
-    <ul class="non-bullet-list">
-      <li class="list-item-inline">item1</li>
-      <li class="list-item-inline">item2</li>
-      <li class="list-item-inline">item3</li>
-    </ul>
-    <div>ordered list</div>
-    <ol reversed>
-      <li>item1</li>
-      <li>item2</li>
-      <li>item3</li>
-    </ol>
-    <hr />
-    <h2>@nav</h2>
-    <nav class="navigation container">
-      <div class="nav-brand">iAmBrand</div>
-      <ul class="non-bullet-list nav-pills">
-        <li class="list-item-inline">
-          <a class="link link-active" href="/">Home</a>
-        </li>
-        <li class="list-item-inline"><a class="link" href="/">Projects</a></li>
-        <li class="list-item-inline"><a class="link" href="/">Blogs</a></li>
+    <nav class="navigation">
+      <div class="nav-brand">theconfusedhead</div>
+      <ul class="list">
+        <li class="list-item active">Home</li>
+        <li class="list-item">Projects</li>
+        <li class="list-item">Resume</li>
       </ul>
     </nav>
-    <hr />
-    <h2>@header</h2>
-    <header class="hero">
-      <p>hex color : #FF63F0</p>
-      <p>Resouce:</p>
-      <a href="https://undraw.co/search">UnDraw</a>
-      <a href="https://tailwindcss.com/docs/customizing-colors">TailWindCSS</a>
-      <img
-        class="hero-img"
-        src="/img/undraw_version_control_re_mg66.svg"
-        alt=""
-      />
-      <h1 class="hero-heading">heading inside hero</h1>
+    <header class="container-center">
+      <img class="hero-img" src="./img/hero_img.svg" alt="hero image" />
+      <div class="center">
+        <h1>Shivam Chourasia</h1>
+        <p>
+          <span class="primary-color"
+            ><strong>the Frontend Developer</strong></span
+          >
+        </p>
+      </div>
     </header>
-    <hr />
-    <h2>@Section</h2>
-    <section class="section">
-      <div class="container container-center">
-        <h1>White Section</h1>
-        <p>this will have white background</p>
-      </div>
+    <section class="container-center ow">
+      <h2 class="center">Technologies</h2>
+      <p>
+        I know about HTML5, CSS3, BOOTSTRAP, JavaScript, ReactJS, Git, Web
+        Hosting.
+      </p>
     </section>
-    <section class="section ow">
-      <div class="container container-center">
-        <h1>Grey Section</h1>
-        <p>This will have grey section</p>
-      </div>
+    <section class="container-center">
+      <h2 class="center">Projects</h2>
+      <p>
+        I know about HTML5, CSS3, BOOTSTRAP, JavaScript, ReactJS, Git, Web
+        Hosting.
+      </p>
+      <p class="center">
+        <a class="primary-link" href="/projects">See Projects</a>
+      </p>
     </section>
-
-    <hr />
-    <h2>@Footer</h2>
+    <section class="container-center ow">
+      <h2 class="center">Blogs</h2>
+      <p>
+        I know about HTML5, CSS3, BOOTSTRAP, JavaScript, ReactJS, Git, Web
+        Hosting.
+      </p>
+      <p class="center">
+        <a class="primary-link" href="/projects">Blogs</a>
+      </p>
+    </section>
     <footer class="footer">
       <div class="footer-header">This is some text</div>
-      <ul class="social-link non-bullet-list list-item-inline">
-        <li class="list-item-inline"><a href="" class="link">Social 1</a></li>
-        <li class="list-item-inline"><a href="" class="link">Social 2</a></li>
-        <li class="list-item-inline"><a href="" class="link">Social 3</a></li>
-        <li class="list-item-inline"><a href="" class="link">Social 4</a></li>
+      <ul class="list">
+        <li class="list-item"><a href="" class="link">Social 1</a></li>
+        <li class="list-item"><a href="" class="link">Social 2</a></li>
+        <li class="list-item"><a href="" class="link">Social 3</a></li>
+        <li class="list-item"><a href="" class="link">Social 4</a></li>
       </ul>
     </footer>
   </body>
