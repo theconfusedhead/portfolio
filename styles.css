@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
   margin-top: 0;
 }
 
@@ -29,7 +28,7 @@ body{
     font-weight: bold;
 }
 .container-center{
-padding: 1rem 1rem;
+padding: 3rem 1rem;
 max-width: 600px;
 margin: auto;
 }
@@ -38,6 +37,7 @@ margin: auto;
 }
 .center{
     text-align: center;
+    padding: 0;
 }
 .primary-color{
     color: var(--primary-color);
@@ -57,9 +57,26 @@ h2{
     color: white;
     text-decoration: none;
 }
+.download{
+    background-color: var(--primary-color);
+    border-radius: .5rem;
+    padding: 1rem 4rem;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
 .footer{
     background-color: var(--primary-color);
     color: white;
-    margin:0;
-    padding: 1rem 2rem;
+    margin: 5rem 0 0 0;
+    padding: 3rem 2rem;
+    border-radius: 0 1rem 0 0 ;
+}
+.social{
+   font-size: 2rem;
+   color: white;
+}
+.remove{
+    text-decoration: none;
+    color: white;
 }
