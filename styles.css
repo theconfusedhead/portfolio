@@ -90,4 +90,12 @@ h2{
     padding: 0.2rem;
     font-size: 12px;
 }
+.primary-link{  
+    background-color: var(--primary-color);
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
   }
